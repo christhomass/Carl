@@ -1,11 +1,11 @@
 var ShapeLibrary = function(ctx, c) {
     console.log("ShapeLibrary instantiated");
-    
+
     this.ctx = ctx;
     this.c = c;
-    
-    this.rectangles; 
-    
+
+    this.rectangles;
+
     this.defineRectangles();
 };
 
@@ -13,7 +13,7 @@ var ShapeLibrary = function(ctx, c) {
  * Returns a random integer between min (inclusive) and max (inclusive)
  * Using Math.round() will give you a non-uniform distribution!
  */
-ShapeLibrary.prototype.drawArc = function(){
+ShapeLibrary.prototype.drawArc = function() {
     ctx.beginPath();
     ctx.arc(288, 75, 70, 0, Math.PI, false);
     ctx.closePath();
@@ -23,18 +23,18 @@ ShapeLibrary.prototype.drawArc = function(){
 }
 
 ShapeLibrary.prototype.drawCircle = function() {
-  
+
 };
 
 ShapeLibrary.prototype.drawRect = function(i) {
-   console.log('Drawing Rectange: ' + i + "   dims: " + 
-              this.rectangles[0] + '-' + this.rectangles[1]
-                + '-' + this.rectangles[2]  + '-' +  this.rectangles[3]);
-    if (this.rectangles[i] != null){
+    console.log('Drawing Rectange: ' + i + "   dims: " +
+        this.rectangles[0] + '-' + this.rectangles[1] +
+        '-' + this.rectangles[2] + '-' + this.rectangles[3]);
+    if (this.rectangles[i] != null) {
         this.ctx.fillStyle = this.rectangles[i].color;
-        
+
         this.ctx.fillRect(this.rectangles[i].dims[0], this.rectangles[i].dims[1], this.rectangles[i].dims[2], this.rectangles[i].dims[3]);
-   }
+    }
 };
 
 /**
@@ -45,28 +45,23 @@ ShapeLibrary.prototype.randomInt = function(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-ShapeLibrary.prototype.defineRectangles = function(){
-    
-  this.rectangles = [
-        {
-            color: '#D8644B',
-            dims: [100, 300, 200, 100]
-        },{
-            color: '#800000',
-            dims: [200, 300, 200, 100]
-        }
-      {
-            color: '#4B82D8',
-            dims: [200, 300, 200, 100]
-        }
-      {
-            color: '#8646B3',
-            dims: [200, 300, 200, 100]
-        }
-        {
-            color: '#8DED62',
-            dims: [200, 300, 200, 100]
-        }
-    ];
-    
+ShapeLibrary.prototype.defineRectangles = function() {
+
+    this.rectangles = [{
+        color: '#D8644B',
+        dims: [100, 300, 200, 100]
+    }, {
+        color: '#800000',
+        dims: [200, 300, 200, 100]
+    } {
+        color: '#4B82D8',
+        dims: [200, 300, 200, 100]
+    } {
+        color: '#8646B3',
+        dims: [200, 300, 200, 100]
+    } {
+        color: '#8DED62',
+        dims: [200, 300, 200, 100]
+    }];
+
 }
