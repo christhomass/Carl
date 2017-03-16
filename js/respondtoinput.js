@@ -6,7 +6,7 @@ function respondToInput() {
 
     switch (aVal) {
         case 0:
-            shapeLibrary.drawRect(0);
+            console.log("Say nada");
             break;
         case 1:
             shapeLibrary.drawRect(1);
@@ -49,7 +49,7 @@ function respondToInput() {
 
     switch (bVal) {
         case 0:
-            shapeLibrary.drawRect(0);
+            console.log("Say nada");
             break;
         case 1:
             shapeLibrary.drawRect(1);
@@ -92,7 +92,7 @@ function respondToInput() {
 
     switch (cVal) {
         case 0:
-            shapeLibrary.drawRect(0);
+            console.log("Say nada");
             break;
         case 1:
             shapeLibrary.drawRect(1);
@@ -134,7 +134,7 @@ function respondToInput() {
 
     switch (dVal) {
         case 0:
-            shapeLibrary.drawRect(0);
+            console.log("Say nada");
             break;
         case 1:
             shapeLibrary.drawRect(1);
@@ -176,7 +176,7 @@ function respondToInput() {
 
     switch (eVal) {
         case 0:
-            shapeLibrary.drawRect(0);
+            console.log("Say nada");
             break;
         case 1:
             shapeLibrary.drawRect(1);
@@ -218,7 +218,7 @@ function respondToInput() {
 
     switch (fVal) {
         case 0:
-            shapeLibrary.drawRect(0);
+            console.log("Say nada");
             break;
         case 1:
             shapeLibrary.drawRect(1);
@@ -260,7 +260,7 @@ function respondToInput() {
 
     switch (gVal) {
         case 0:
-            shapeLibrary.drawRect(0);
+            console.log("Say nada");
             break;
         case 1:
             shapeLibrary.drawRect(1);
@@ -302,7 +302,7 @@ function respondToInput() {
 
     switch (hVal) {
         case 0:
-            shapeLibrary.drawRect(0);
+            console.log("Say nada");
             break;
         case 1:
             shapeLibrary.drawRect(1);
@@ -344,7 +344,7 @@ function respondToInput() {
 
     switch (iVal) {
         case 0:
-            shapeLibrary.drawRect(0);
+            console.log("Say nada");
             break;
         case 1:
             shapeLibrary.drawRect(1);
@@ -386,7 +386,7 @@ function respondToInput() {
 
     switch (jVal) {
         case 0:
-            shapeLibrary.drawRect(0);
+            console.log("Say nada");
             break;
         case 1:
             shapeLibrary.drawRect(1);
@@ -428,7 +428,7 @@ function respondToInput() {
 
     switch (kVal) {
         case 0:
-            shapeLibrary.drawRect(0);
+            console.log("Say nada");
             break;
         case 1:
             shapeLibrary.drawRect(1);
@@ -470,7 +470,7 @@ function respondToInput() {
 
     switch (lVal) {
         case 0:
-            shapeLibrary.drawRect(0);
+            console.log("Say nada");
             break;
         case 1:
             shapeLibrary.drawRect(1);
@@ -512,7 +512,7 @@ function respondToInput() {
 
     switch (mVal) {
         case 0:
-            shapeLibrary.drawRect(0);
+            console.log("Say nada");
             break;
         case 1:
             shapeLibrary.drawRect(1);
@@ -554,7 +554,7 @@ function respondToInput() {
 
     switch (nVal) {
         case 0:
-            shapeLibrary.drawRect(0);
+            console.log("Say nada");
             break;
         case 1:
             shapeLibrary.drawRect(1);
@@ -596,7 +596,7 @@ function respondToInput() {
 
     switch (oVal) {
         case 0:
-            shapeLibrary.drawRect(0);
+            console.log("Say nada");
             break;
         case 1:
             shapeLibrary.drawRect(1);
@@ -638,7 +638,7 @@ function respondToInput() {
 
     switch (pVal) {
         case 0:
-            shapeLibrary.drawRect(0);
+            console.log("Say nada");
             break;
         case 1:
             shapeLibrary.drawRect(1);
@@ -680,7 +680,7 @@ function respondToInput() {
 
     switch (qVal) {
         case 0:
-            shapeLibrary.drawRect(0);
+            console.log("Say nada");
             break;
         case 1:
             shapeLibrary.drawRect(1);
@@ -722,7 +722,7 @@ function respondToInput() {
 
     switch (rVal) {
         case 0:
-            shapeLibrary.drawRect(0);
+            console.log("Say nada");
             break;
         case 1:
             shapeLibrary.drawRect(1);
@@ -764,7 +764,7 @@ function respondToInput() {
 
     switch (sVal) {
         case 0:
-            shapeLibrary.drawRect(0);
+            console.log("Say nada");
             break;
         case 1:
             shapeLibrary.drawRect(1);
@@ -806,7 +806,7 @@ function respondToInput() {
 
     switch (tVal) {
         case 0:
-            shapeLibrary.drawRect(0);
+            console.log("Say nada");
             break;
         case 1:
             shapeLibrary.drawRect(1);
@@ -848,7 +848,7 @@ function respondToInput() {
 
     switch (uVal) {
         case 0:
-            shapeLibrary.drawRect(0);
+            console.log("Say nada");
             break;
         case 1:
             shapeLibrary.drawRect(1);
@@ -890,7 +890,7 @@ function respondToInput() {
 
     switch (vVal) {
         case 0:
-            shapeLibrary.drawRect(0);
+            console.log("Say nada");
             break;
         case 1:
             shapeLibrary.drawRect(1);
@@ -932,7 +932,7 @@ function respondToInput() {
 
     switch (wVal) {
         case 0:
-            shapeLibrary.drawRect(0);
+            console.log("Say nada");
             break;
         case 1:
             shapeLibrary.drawRect(1);
@@ -974,7 +974,7 @@ function respondToInput() {
 
     switch (xVal) {
         case 0:
-            shapeLibrary.drawRect(0);
+            console.log("Say nada");
             break;
         case 1:
             shapeLibrary.drawRect(1);
@@ -1016,7 +1016,7 @@ function respondToInput() {
 
     switch (yVal) {
         case 0:
-            shapeLibrary.drawRect(0);
+            console.log("Say nada");
             break;
         case 1:
             shapeLibrary.drawRect(1);
@@ -1058,7 +1058,7 @@ function respondToInput() {
 
     switch (zVal) {
         case 0:
-            shapeLibrary.drawRect(0);
+            console.log("Say nada");
             break;
         case 1:
             shapeLibrary.drawRect(1);
