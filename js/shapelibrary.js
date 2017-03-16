@@ -54,15 +54,15 @@ ShapeLibrary.prototype.defineRectangles = function(){
         },{
             color: '#800000',
             dims: [200, 300, 200, 100]
-        }
+        },
       {
             color: '#4B82D8',
             dims: [200, 300, 200, 100]
-        }
+},
       {
             color: '#8646B3',
             dims: [200, 300, 200, 100]
-        }
+        },
         {
             color: '#8DED62',
             dims: [200, 300, 200, 100]
