@@ -49,11 +49,23 @@ ShapeLibrary.prototype.defineRectangles = function(){
     
   this.rectangles = [
         {
-            color: '#000000',
+            color: '#D8644B',
             dims: [100, 300, 200, 100]
         },{
-            color: '#999999',
-            dims: [100, 300, 200, 100]
+            color: '#800000',
+            dims: [200, 300, 200, 100]
+        }
+      {
+            color: '#4B82D8',
+            dims: [200, 300, 200, 100]
+        }
+      {
+            color: '#8646B3',
+            dims: [200, 300, 200, 100]
+        }
+        {
+            color: '#8DED62',
+            dims: [200, 300, 200, 100]
         }
     ];
     

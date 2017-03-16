@@ -82,7 +82,7 @@
             ctx.fillStyle = "##641E16", ctx.fillRect(50, 160, 650, 830);
             console.log("C2 hit");
         } else if ((stats.c > 21) && (stats.c < 30)) {
-            ctx.fillStyle = "###CA6F1E", ctx.fillRect(840, 680, 30, 390);
+            ctx.fillStyle = "#CA6F1E", ctx.fillRect(840, 680, 30, 390);
             console.log("C3 hit");
         }  else if ((stats.c > 31) && (stats.c < 40)) {
             ctx.fillStyle = "#8E44AD", ctx.fillRect(890, 900, 130, 90);
