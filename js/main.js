@@ -40,6 +40,8 @@ var shapeLibrary = new ShapeLibrary(ctx, c);
 var inputButton = document.getElementById('input-button');
 inputButton.addEventListener('click', buttonEventHandler);
 
+
+
 function buttonEventHandler() {
 
     // get the input text
@@ -50,6 +52,10 @@ function buttonEventHandler() {
 
     // draw response
     respondToInput();
+    
+    
+
+    
 
     
 
