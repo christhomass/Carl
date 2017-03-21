@@ -41,7 +41,7 @@ function respondToLocation() {
             break;
     }
 
-     var long = Math.floor(longi);
+    var long = Math.floor(longi);
 
     switch (long) {
         case 0:

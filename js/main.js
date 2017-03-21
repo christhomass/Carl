@@ -187,31 +187,18 @@ function buttonEventHandler() {
         });
 
         function updateLevelInfo() {
-            
-         
-            
+
+
+
             var batteryL = battery.level;
-        
+
             console.log("Battery level: " + battery.level * 100 + "%");
-            
+
             batLevel = batteryL * 10;
-            
+
             respondToBatteryLevel();
-            
-            
-            
-            
-        }
-        
-        
+          }
 
-
-
-    });
-
-
-
-
-
+      ]});
 
 }

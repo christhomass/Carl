@@ -40,5 +40,5 @@ function respondToBatteryLevel() {
             console.log("oh shit");
             break;
     }
-    
+
 };
