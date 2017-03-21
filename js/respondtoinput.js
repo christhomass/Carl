@@ -2,7 +2,7 @@
 function respondToInput() {
 
     /* ------------------------------------------------- A -- */
-    var aVal = Math.floor(stats.a / 5);
+    var aVal = Math.floor(stats.a / 2);
 
     switch (aVal) {
         case 0:
@@ -45,7 +45,7 @@ function respondToInput() {
 
 
     /* ------------------------------------------------- B -- */
-    var bVal = Math.floor(stats.b / 10);
+    var bVal = Math.floor(stats.b / 2);
 
     switch (bVal) {
         case 0:
@@ -88,7 +88,7 @@ function respondToInput() {
 
 
     /* ------------------------------------------------- C -- */
-    var cVal = Math.floor(stats.c / 10);
+    var cVal = Math.floor(stats.c / 2);
 
     switch (cVal) {
         case 0:
@@ -130,7 +130,7 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- D -- */
-    var dVal = Math.floor(stats.d / 10);
+    var dVal = Math.floor(stats.d / 2);
 
     switch (dVal) {
         case 0:
@@ -172,7 +172,7 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- E -- */
-    var eVal = Math.floor(stats.e / 10);
+    var eVal = Math.floor(stats.e / 2);
 
     switch (eVal) {
         case 0:
@@ -214,7 +214,7 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- F -- */
-    var fVal = Math.floor(stats.f / 10);
+    var fVal = Math.floor(stats.f / 2);
 
     switch (fVal) {
         case 0:
@@ -256,7 +256,7 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- G -- */
-    var gVal = Math.floor(stats.g / 10);
+    var gVal = Math.floor(stats.g / 2);
 
     switch (gVal) {
         case 0:
@@ -298,7 +298,7 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- H -- */
-    var hVal = Math.floor(stats.h / 10);
+    var hVal = Math.floor(stats.h / 2);
 
     switch (hVal) {
         case 0:
@@ -340,7 +340,7 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- I -- */
-    var iVal = Math.floor(stats.i / 10);
+    var iVal = Math.floor(stats.i / 2);
 
     switch (iVal) {
         case 0:
@@ -382,7 +382,7 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- J -- */
-    var jVal = Math.floor(stats.j / 10);
+    var jVal = Math.floor(stats.j / 2);
 
     switch (jVal) {
         case 0:
@@ -424,7 +424,7 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- K -- */
-    var kVal = Math.floor(stats.k / 10);
+    var kVal = Math.floor(stats.k / 2);
 
     switch (kVal) {
         case 0:
@@ -466,7 +466,7 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- L -- */
-    var lVal = Math.floor(stats.l / 10);
+    var lVal = Math.floor(stats.l / 2);
 
     switch (lVal) {
         case 0:
@@ -508,7 +508,7 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- M -- */
-    var mVal = Math.floor(stats.m / 10);
+    var mVal = Math.floor(stats.m / 2);
 
     switch (mVal) {
         case 0:
@@ -550,7 +550,7 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- N -- */
-    var nVal = Math.floor(stats.n / 10);
+    var nVal = Math.floor(stats.n / 2);
 
     switch (nVal) {
         case 0:
@@ -592,7 +592,7 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- O -- */
-    var oVal = Math.floor(stats.o / 10);
+    var oVal = Math.floor(stats.o / 2);
 
     switch (oVal) {
         case 0:
@@ -634,7 +634,7 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- P -- */
-    var pVal = Math.floor(stats.p / 10);
+    var pVal = Math.floor(stats.p / 2);
 
     switch (pVal) {
         case 0:
@@ -676,7 +676,7 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- Q -- */
-    var qVal = Math.floor(stats.q / 10);
+    var qVal = Math.floor(stats.q / 2);
 
     switch (qVal) {
         case 0:
@@ -718,7 +718,7 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- R -- */
-    var rVal = Math.floor(stats.r / 10);
+    var rVal = Math.floor(stats.r / 2);
 
     switch (rVal) {
         case 0:
@@ -760,7 +760,7 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- S -- */
-    var sVal = Math.floor(stats.s / 10);
+    var sVal = Math.floor(stats.s / 2);
 
     switch (sVal) {
         case 0:
@@ -802,7 +802,7 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- T -- */
-    var tVal = Math.floor(stats.t / 10);
+    var tVal = Math.floor(stats.t / 2);
 
     switch (tVal) {
         case 0:
@@ -844,7 +844,7 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- U -- */
-    var uVal = Math.floor(stats.u / 10);
+    var uVal = Math.floor(stats.u / 2);
 
     switch (uVal) {
         case 0:
@@ -886,7 +886,7 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- V -- */
-    var vVal = Math.floor(stats.v / 10);
+    var vVal = Math.floor(stats.v / 2);
 
     switch (vVal) {
         case 0:
@@ -928,7 +928,7 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- W -- */
-    var wVal = Math.floor(stats.w / 10);
+    var wVal = Math.floor(stats.w / 2);
 
     switch (wVal) {
         case 0:
@@ -970,7 +970,7 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- X -- */
-    var xVal = Math.floor(stats.x / 10);
+    var xVal = Math.floor(stats.x / 2);
 
     switch (xVal) {
         case 0:
@@ -1012,7 +1012,7 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- Y -- */
-    var yVal = Math.floor(stats.y / 10);
+    var yVal = Math.floor(stats.y / 2);
 
     switch (yVal) {
         case 0:
@@ -1054,7 +1054,7 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- Z -- */
-    var zVal = Math.floor(stats.z / 10);
+    var zVal = Math.floor(stats.z / 2);
 
     switch (zVal) {
         case 0:

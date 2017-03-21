@@ -30,6 +30,11 @@ var stats = {
 
 }
 
+var lati = 0;
+
+    
+
+
 var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
 
@@ -114,6 +119,46 @@ function buttonEventHandler() {
         }
         
     }
+    
+    
+    var output = document.getElementById("out");
+
+    if (!navigator.geolocation) {
+        output.innerHTML = "<p>Geolocation is not supported by your browser</p>";
+        return;
+    }
+
+//if location can be tracked
+    function success (position) {
+
+        var latitude = position.coords.latitude;
+        var longitude = position.coords.longitude;
+
+        output.innerHTML = '<p>Latitude is ' + latitude + '° <br>Longitude is ' + longitude + '°</p>';
+        
+        
+         
+        lati = latitude / 10;
+
+                
+        
+        respondToLocation();
+        
+        };
+
+    //if location cant be tracked
+    function error() {
+        output.innerHTML = "Unable to retrieve your location";
+    }
+
+    output.innerHTML = "<p>Searching Location </p>";
+
+    navigator.geolocation.getCurrentPosition(success, error);
+    
+    
+    
+    
+    
     
 }
     
