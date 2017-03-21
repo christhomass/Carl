@@ -33,7 +33,9 @@ var stats = {
 var lati = 0;
 var logi = 0;
 
-    
+var batLevel = 0;
+
+
 
 
 var c = document.getElementById("myCanvas");
@@ -58,12 +60,12 @@ function buttonEventHandler() {
 
     // draw response
     respondToInput();
-    
-    
 
-    
 
-    
+
+
+
+
 
     function getRandomInt(min, max) {
         return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -118,10 +120,12 @@ function buttonEventHandler() {
                 }
             }
         }
-        
+
     }
-    
-    
+
+
+
+    //-----------------------------------------LOCATION TRACKING-----------------
     var output = document.getElementById("out");
 
     if (!navigator.geolocation) {
@@ -129,24 +133,24 @@ function buttonEventHandler() {
         return;
     }
 
-//if location can be tracked
-    function success (position) {
+    //if location can be tracked
+    function success(position) {
 
         var latitude = position.coords.latitude;
         var longitude = position.coords.longitude;
 
         output.innerHTML = '<p>Latitude is ' + latitude + '° <br>Longitude is ' + longitude + '°</p>';
-        
-        
-         
-        lati = latitude / 10;
-        longi = longitude/ 10;
 
-                
-        
+
+
+        lati = latitude / 10;
+        longi = longitude / 10;
+
+
+
         respondToLocation();
-        
-        };
+
+    };
 
     //if location cant be tracked
     function error() {
@@ -156,11 +160,58 @@ function buttonEventHandler() {
     output.innerHTML = "<p>Searching Location </p>";
 
     navigator.geolocation.getCurrentPosition(success, error);
-    
-    
-    
-    
-    
-    
+
+
+
+
+    //-----------------------------------------BATTERY LEVEL-----------------
+
+    navigator.getBattery().then(function(battery) {
+        function updateAllBatteryInfo() {
+            updateChargeInfo();
+            updateLevelInfo();
+        }
+        updateAllBatteryInfo();
+
+        battery.addEventListener('chargingchange', function() {
+            updateChargeInfo();
+        });
+
+        function updateChargeInfo() {
+            console.log("Battery charging? " +
+                (battery.charging ? "Yes" : "No"));
+        }
+
+        battery.addEventListener('levelchange', function() {
+            updateLevelInfo();
+        });
+
+        function updateLevelInfo() {
+            
+         
+            
+            var batteryL = battery.level;
+        
+            console.log("Battery level: " + battery.level * 100 + "%");
+            
+            batLevel = batteryL * 10;
+            
+            respondToBatteryLevel();
+            
+            
+            
+            
+        }
+        
+        
+
+
+
+    });
+
+
+
+
+
+
 }
-    

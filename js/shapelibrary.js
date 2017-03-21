@@ -49,27 +49,103 @@ ShapeLibrary.prototype.randomInt = function(min, max) {
 ShapeLibrary.prototype.defineRectangles = function() {
 
     this.rectangles = [{
+        // Rectangle 0
             color: '#D8644B',
-            dims: [700, 300, 200, 100]
-        }, {
+            dims: [100, 300, 200, 100]
+        }, 
+        // Rectangle 1               
+                       { 
             color: '#800000',
-            dims: [600, 300, 200, 100]
+            dims: [200, 500, 200, 100]
         },
+        // Rectangle 2
         {
             color: '#4B82D8',
-            dims: [500, 300, 200, 100]
+            dims: [500, 20, 40, 500]
         },
+        // Rectangle 3
         {
-            color: '#8646B3',
-            dims: [100, 300, 200, 100]
+            color: '#80BD4D',
+            dims: [60, 600, 200, 30]
         },
+        // Rectangle 4
         {
-            color: '#8DED62',
-            dims: [300, 300, 200, 100]
-        }, {
-            color: '#8DFD62',
-            dims: [400, 300, 200, 100]
-        }
+            color: '#59A4D6',
+            dims: [900, 100, 500, 400]
+        }, 
+        // Rectangle 5
+        {
+            color: '#BD4D6B',
+            dims: [700, 500, 60, 100]
+        }, 
+        // Rectangle 6               
+        {
+            color: '#1B4484',
+            dims: [300, 100, 50, 800]
+        }, 
+        // Rectangle 7               
+        {
+            color: '#57B0AF',
+            dims: [900, 150, 400, 200]
+        }, 
+        // Rectangle 8               
+        {
+            color: '#9C4D91',
+            dims: [100, 350, 800, 40]
+        }, 
+        // Rectangle 9               
+        {
+            color: '#EDB776',
+            dims: [700, 500, 60, 100]
+        }, 
+        // Rectangle 10               ------------------ Colour
+        {
+            color: '#EDB776',
+            dims: [70, 160, 250, 800]
+        },
+        // Rectangle 11              
+        {
+            color: '#EDB776',
+            dims: [610, 350, 100, 100]
+        }, 
+        // Rectangle 12               
+        {
+            color: '#EDB776',
+            dims: [400, 20, 500, 25]
+        },  
+        // Rectangle 13               
+        {
+            color: '#EDB776',
+            dims: [1000, 200, 40, 250]
+        },  
+        // Rectangle 14               
+        {
+            color: '#EDB776',
+            dims: [800, 600, 500, 55]
+        },  
+        // Rectangle 15               
+        {
+            color: '#EDB776',
+            dims: [800, 50, 200, 100]
+        },  
+        // Rectangle 16               
+        {
+            color: '#EDB776',
+            dims: [400, 400, 60, 60]
+        },  
+        // Rectangle 17               
+        {
+            color: '#EDB776',
+            dims: [350, 50, 500, 25]
+        },  
+        // Rectangle 18               
+        {
+            color: '#EDB776',
+            dims: [700, 500, 60, 100]
+        }, 
+                       
+                       
+                       
     ];
 
 }

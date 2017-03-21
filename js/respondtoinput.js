@@ -1,42 +1,41 @@
-
 function respondToInput() {
 
     /* ------------------------------------------------- A -- */
-    var aVal = Math.floor(stats.a / 2);
+    var aVal = Math.floor(stats.a / 1);
 
     switch (aVal) {
         case 0:
             console.log("Say nada");
             break;
         case 1:
-            shapeLibrary.drawRect(1);
+            shapeLibrary.drawRect(0);
             break;
         case 2:
-            shapeLibrary.drawRect(2);
+            shapeLibrary.drawRect(1);
             break;
         case 3:
-            shapeLibrary.drawRect(3);
+            shapeLibrary.drawRect(2);
             break;
         case 4:
-            shapeLibrary.drawRect(4);
+            shapeLibrary.drawRect(3);
             break;
         case 5:
-            shapeLibrary.drawRect(5);
+            shapeLibrary.drawRect(4);
             break;
         case 6:
-            shapeLibrary.drawRect(6);
+            shapeLibrary.drawRect(5);
             break;
         case 7:
-            shapeLibrary.drawRect(7);
+            shapeLibrary.drawRect(6);
             break;
         case 8:
-            shapeLibrary.drawRect(8);
+            shapeLibrary.drawRect(7);
             break;
         case 9:
-            shapeLibrary.drawRect(9);
+            shapeLibrary.drawRect(8);
             break;
         case 10:
-            shapeLibrary.drawRect(10);
+            shapeLibrary.drawRect(9);
             break;
         default:
             console.log("oh shit");
@@ -45,7 +44,7 @@ function respondToInput() {
 
 
     /* ------------------------------------------------- B -- */
-    var bVal = Math.floor(stats.b / 2);
+    var bVal = Math.floor(stats.b / 1);
 
     switch (bVal) {
         case 0:
@@ -88,14 +87,14 @@ function respondToInput() {
 
 
     /* ------------------------------------------------- C -- */
-    var cVal = Math.floor(stats.c / 2);
+    var cVal = Math.floor(stats.c / 1);
 
     switch (cVal) {
         case 0:
             console.log("Say nada");
             break;
         case 1:
-            shapeLibrary.drawRect(1);
+            shapeLibrary.drawRect(2);
             break;
         case 2:
             shapeLibrary.drawRect(2);
@@ -130,14 +129,14 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- D -- */
-    var dVal = Math.floor(stats.d / 2);
+    var dVal = Math.floor(stats.d / 1);
 
     switch (dVal) {
         case 0:
             console.log("Say nada");
             break;
         case 1:
-            shapeLibrary.drawRect(1);
+            shapeLibrary.drawRect(3);
             break;
         case 2:
             shapeLibrary.drawRect(2);
@@ -172,7 +171,7 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- E -- */
-    var eVal = Math.floor(stats.e / 2);
+    var eVal = Math.floor(stats.e / 1);
 
     switch (eVal) {
         case 0:
@@ -214,14 +213,14 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- F -- */
-    var fVal = Math.floor(stats.f / 2);
+    var fVal = Math.floor(stats.f / 1);
 
     switch (fVal) {
         case 0:
             console.log("Say nada");
             break;
         case 1:
-            shapeLibrary.drawRect(1);
+            shapeLibrary.drawRect(5);
             break;
         case 2:
             shapeLibrary.drawRect(2);
@@ -256,14 +255,14 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- G -- */
-    var gVal = Math.floor(stats.g / 2);
+    var gVal = Math.floor(stats.g / 1);
 
     switch (gVal) {
         case 0:
             console.log("Say nada");
             break;
         case 1:
-            shapeLibrary.drawRect(1);
+            shapeLibrary.drawRect(6);
             break;
         case 2:
             shapeLibrary.drawRect(2);
@@ -298,14 +297,14 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- H -- */
-    var hVal = Math.floor(stats.h / 2);
+    var hVal = Math.floor(stats.h / 1);
 
     switch (hVal) {
         case 0:
             console.log("Say nada");
             break;
         case 1:
-            shapeLibrary.drawRect(1);
+            shapeLibrary.drawRect(7);
             break;
         case 2:
             shapeLibrary.drawRect(2);
@@ -340,14 +339,14 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- I -- */
-    var iVal = Math.floor(stats.i / 2);
+    var iVal = Math.floor(stats.i / 1);
 
     switch (iVal) {
         case 0:
             console.log("Say nada");
             break;
         case 1:
-            shapeLibrary.drawRect(1);
+            shapeLibrary.drawRect(8);
             break;
         case 2:
             shapeLibrary.drawRect(2);
@@ -382,14 +381,14 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- J -- */
-    var jVal = Math.floor(stats.j / 2);
+    var jVal = Math.floor(stats.j / 1);
 
     switch (jVal) {
         case 0:
             console.log("Say nada");
             break;
         case 1:
-            shapeLibrary.drawRect(1);
+            shapeLibrary.drawRect(9);
             break;
         case 2:
             shapeLibrary.drawRect(2);
@@ -424,7 +423,7 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- K -- */
-    var kVal = Math.floor(stats.k / 2);
+    var kVal = Math.floor(stats.k / 1);
 
     switch (kVal) {
         case 0:
@@ -466,7 +465,7 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- L -- */
-    var lVal = Math.floor(stats.l / 2);
+    var lVal = Math.floor(stats.l / 1);
 
     switch (lVal) {
         case 0:
@@ -508,7 +507,7 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- M -- */
-    var mVal = Math.floor(stats.m / 2);
+    var mVal = Math.floor(stats.m / 1);
 
     switch (mVal) {
         case 0:
@@ -550,7 +549,7 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- N -- */
-    var nVal = Math.floor(stats.n / 2);
+    var nVal = Math.floor(stats.n / 1);
 
     switch (nVal) {
         case 0:
@@ -592,7 +591,7 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- O -- */
-    var oVal = Math.floor(stats.o / 2);
+    var oVal = Math.floor(stats.o / 1);
 
     switch (oVal) {
         case 0:
@@ -634,7 +633,7 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- P -- */
-    var pVal = Math.floor(stats.p / 2);
+    var pVal = Math.floor(stats.p / 1);
 
     switch (pVal) {
         case 0:
@@ -676,7 +675,7 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- Q -- */
-    var qVal = Math.floor(stats.q / 2);
+    var qVal = Math.floor(stats.q / 1);
 
     switch (qVal) {
         case 0:
@@ -718,7 +717,7 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- R -- */
-    var rVal = Math.floor(stats.r / 2);
+    var rVal = Math.floor(stats.r / 1);
 
     switch (rVal) {
         case 0:
@@ -760,7 +759,7 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- S -- */
-    var sVal = Math.floor(stats.s / 2);
+    var sVal = Math.floor(stats.s / 1);
 
     switch (sVal) {
         case 0:
@@ -802,7 +801,7 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- T -- */
-    var tVal = Math.floor(stats.t / 2);
+    var tVal = Math.floor(stats.t / 1);
 
     switch (tVal) {
         case 0:
@@ -844,7 +843,7 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- U -- */
-    var uVal = Math.floor(stats.u / 2);
+    var uVal = Math.floor(stats.u / 1);
 
     switch (uVal) {
         case 0:
@@ -886,7 +885,7 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- V -- */
-    var vVal = Math.floor(stats.v / 2);
+    var vVal = Math.floor(stats.v / 1);
 
     switch (vVal) {
         case 0:
@@ -928,7 +927,7 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- W -- */
-    var wVal = Math.floor(stats.w / 2);
+    var wVal = Math.floor(stats.w / 1);
 
     switch (wVal) {
         case 0:
@@ -970,7 +969,7 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- X -- */
-    var xVal = Math.floor(stats.x / 2);
+    var xVal = Math.floor(stats.x / 1);
 
     switch (xVal) {
         case 0:
@@ -1012,7 +1011,7 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- Y -- */
-    var yVal = Math.floor(stats.y / 2);
+    var yVal = Math.floor(stats.y / 1);
 
     switch (yVal) {
         case 0:
@@ -1054,7 +1053,7 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- Z -- */
-    var zVal = Math.floor(stats.z / 2);
+    var zVal = Math.floor(stats.z / 1);
 
     switch (zVal) {
         case 0:
