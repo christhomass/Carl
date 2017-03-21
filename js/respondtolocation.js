@@ -1,4 +1,3 @@
-
 function respondToLocation() {
 
     var lat = Math.floor(lati);
@@ -8,34 +7,75 @@ function respondToLocation() {
             console.log("Hit 0 Lat");
             break;
         case 1:
-            console.log("Hit 1 Lat");
+            shapeLibrary.drawRect(1);
             break;
         case 2:
-            console.log("Hit 2 Lat");
+            shapeLibrary.drawRect(2);
             break;
         case 3:
-            console.log("Hit 3 Lat");
+            shapeLibrary.drawRect(3);
             break;
         case 4:
-            console.log("Hit 4 Lat");
+            shapeLibrary.drawRect(4);
             break;
         case 5:
-            console.log("Hit 5 Lat");
+            shapeLibrary.drawRect(5);
             break;
         case 6:
-            console.log("Hit 6 Lat");
+            shapeLibrary.drawRect(6);
             break;
         case 7:
-            console.log("Hit 7 Lat");
+            shapeLibrary.drawRect(7);
             break;
         case 8:
-            console.log("Hit 8 Lat");
+            shapeLibrary.drawRect(8);
             break;
         case 9:
-            console.log("Hit 9 Lat");
+            shapeLibrary.drawRect(9);
             break;
         case 10:
-            console.log("Hit 10 Lat");
+            shapeLibrary.drawRect(10);
+            break;
+        default:
+            console.log("oh shit");
+            break;
+    }
+
+     var long = Math.floor(longi);
+
+    switch (long) {
+        case 0:
+            console.log("Hit 0 Lat");
+            break;
+        case 1:
+            shapeLibrary.drawRect(1);
+            break;
+        case 2:
+            shapeLibrary.drawRect(2);
+            break;
+        case 3:
+            shapeLibrary.drawRect(3);
+            break;
+        case 4:
+            shapeLibrary.drawRect(4);
+            break;
+        case 5:
+            shapeLibrary.drawRect(5);
+            break;
+        case 6:
+            shapeLibrary.drawRect(6);
+            break;
+        case 7:
+            shapeLibrary.drawRect(7);
+            break;
+        case 8:
+            shapeLibrary.drawRect(8);
+            break;
+        case 9:
+            shapeLibrary.drawRect(9);
+            break;
+        case 10:
+            shapeLibrary.drawRect(10);
             break;
         default:
             console.log("oh shit");

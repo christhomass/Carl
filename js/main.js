@@ -31,6 +31,7 @@ var stats = {
 }
 
 var lati = 0;
+var logi = 0;
 
     
 
@@ -139,6 +140,7 @@ function buttonEventHandler() {
         
          
         lati = latitude / 10;
+        longi = longitude/ 10;
 
                 
         
