@@ -199,6 +199,6 @@ function buttonEventHandler() {
             respondToBatteryLevel();
           }
 
-      ]});
+      });
 
 }
