@@ -1,0 +1,133 @@
+body {
+    background: #00cc99;
+}
+
+body *,
+html * {
+    box-sizing: border-box;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%);
+}
+
+.search-box input[type="text"] {
+    border: none;
+    background: none;
+    z-index: 1;
+    width: 25px;
+    height: 25px;
+    transition: all .25s ease-in .25s;
+    color: transparent;
+    font-size: .75rem;
+    line-height: 25px;
+}
+
+.search-box input[type="text"]:hover {
+    cursor: pointer;
+}
+
+.search-box input[type="text"]:hover:focus {
+    cursor: text;
+}
+
+.search-box input[type="text"]:hover+span {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.search-box input[type="text"]:focus {
+    width: 200px;
+    padding: 0 10px;
+    outline: none;
+    color: black;
+    background: none;
+    color: white;
+}
+
+.search-box input[type="text"]:focus+span {
+    width: 200px;
+}
+
+.search-box input[type="text"]:focus+span::before {
+    width: 2px;
+    opacity: 0;
+    transition: all .25s ease-in;
+}
+
+.search-box input[type="text"]+span {
+    z-index: -1;
+    position: absolute;
+    border: 2px solid white;
+    top: 0;
+    width: 25px;
+    height: 25px;
+    transition: all .25s ease-in .25s;
+    border-radius: 25px;
+    left: 0;
+}
+
+.search-box input[type="text"]+span::before {
+    transition: all .25s ease-in .5s;
+    transform-origin: left top;
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 5px;
+    border-radius: 5px;
+    background: white;
+    transform: rotate(45deg) translate(26px, -2px);
+}
+
+#myCanvas {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 75%;
+}
+
+body {
+	background: #00cc99;
+}
+h4 {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+  font-weight: 200;
+  opacity: .5;
+	font-family: sans-serif;
+  color: #fff;
+}
+#loader {
+  width: 100px;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -20px -50px;
+}
+#loader div {
+	width: 20px;
+  height: 20px;
+	background: #FFF;
+  border-radius: 50%;
+  position: absolute; 
+
+}
+#d1 { animation: animate 2s linear infinite;}
+#d2 { animation: animate 2s linear infinite -.4s; }
+#d3 {animation: animate 2s linear infinite -.8s; }
+#d4 { animation: animate 2s linear infinite -1.2s; } 
+#d5 { animation: animate 2s linear infinite -1.6s; }
+@-webkit-keyframes animate {
+  0% { left: 100px; top:0}
+  80% { left: 0; top:0;}
+  85% { left: 0; top: -20px; width: 20px; height: 20px;}
+  90% { width: 40px; height: 15px; }
+  95% { left: 100px; top: -20px; width: 20px; height: 20px;}
+  100% { left: 100px; top:0; }
+}

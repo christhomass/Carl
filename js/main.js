@@ -50,7 +50,16 @@ inputButton.addEventListener('click', buttonEventHandler);
 
 
 
+document.getElementById("myCanvas").style.visibility = "hidden";
+
+
+
 function buttonEventHandler() {
+    
+    document.getElementById("input-button").style.visibility = "hidden";
+    document.getElementById("textContainer").style.visibility = "hidden";
+    
+    document.getElementById("myCanvas").style.visibility = "visible";
 
     // get the input text
     var textVal = document.getElementById("myText").value;
@@ -93,17 +102,22 @@ function buttonEventHandler() {
             // debug output
             // TODO: Need this to be visual rather than text
             var n = str.length;
-            document.getElementById("countChar").innerHTML = n;
+    
             str = str.replace(/[^A-Za-z0-9\s]/g, "").replace(/\s{2,}/g, " ")
+            
+            console.log("Number of characters is" + n);
         }
 
         //Pick a random word within the array and place it on the screen
-        document.getElementById("example").innerHTML = str;
+        
+        console.log(" Five words chosen are " + str);
 
 
         var string = document.getElementById('myText').value;
         var length = string.split(/[^\s]+/).length - 1;
-        document.getElementById('total').innerHTML = length;
+        
+        
+        console.log(" Number of words used is  " + length)
 
         var strTest = document.getElementById("myText").value;
 
@@ -136,10 +150,12 @@ function buttonEventHandler() {
     //if location can be tracked
     function success(position) {
 
-        var latitude = position.coords.latitude;
-        var longitude = position.coords.longitude;
+        var latitude = Math.floor(position.coords.latitude + 90 / 2) ;
+        var longitude = Math.floor(position.coords.longitude + 180 / 2);
+        
+        
+        
 
-        output.innerHTML = '<p>Latitude is ' + latitude + '° <br>Longitude is ' + longitude + '°</p>';
 
 
 
@@ -157,7 +173,6 @@ function buttonEventHandler() {
         output.innerHTML = "Unable to retrieve your location";
     }
 
-    output.innerHTML = "<p>Searching Location </p>";
 
     navigator.geolocation.getCurrentPosition(success, error);
 
