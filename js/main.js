@@ -55,16 +55,25 @@ inputButton.addEventListener('click', buttonEventHandler);
 
 
 
+
+
+
+
 document.getElementById("myCanvas").style.visibility = "hidden";
+
+document.getElementById("loader").style.visibility = "hidden";
+
 
 
 
 function buttonEventHandler() {
     
     document.getElementById("input-button").style.visibility = "hidden";
-    document.getElementById("textContainer").style.visibility = "hidden";
+    document.getElementById("inputBox").style.visibility = "hidden";
     
-    document.getElementById("myCanvas").style.visibility = "visible";
+    document.getElementById("loader").style.visibility = "visible";
+    
+    
 
     // get the input text
     var textVal = document.getElementById("myText").value;
@@ -170,6 +179,8 @@ function buttonEventHandler() {
 
 
         respondToLocation();
+        
+         document.getElementById("myCanvas").style.visibility = "visible";
 
     };
 

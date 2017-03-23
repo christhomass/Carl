@@ -5,61 +5,73 @@
 <head>
     <meta charset="utf-8">
 
-    <title>THIS IS A TEST Fam</title>
+    <title>Carl</title>
     <meta name="description" content="HTML">
     <meta name="author" content="HTML">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="https://code.createjs.com/preloadjs-0.6.2.min.js"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet prefetch' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+    
+    
+    
+    
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/button.css">
+    
+    
+    
+    
+    
+   
 
 </head>
 
 <body>
 
-<div class="container" id="textContainer">
-<div class="search-box">
-<input type="text" id="myText" value="">
+ 
+    
+    
 
-<span></span>
-    
-</div>    
-    
-</div>    
-
-
-<button id="input-button">Give me 5 Words</button>
-    
-    
-<div id="loader">
-	<div id="d1"></div>
-	<div id="d2"></div>
-	<div id="d3"></div>
-	<div id="d4"></div>
-	<div id="d5"></div>
-</div>
-    
-<canvas id="myCanvas" width="1754" height="1240"></canvas>    
+<form id="inputBox">
+  <div  class="search-wrapper">
+    <input id="myText" class="search-input"  type="text" placeholder="Search"/><i class="ion ion-paintbrush"></i>
+  </div>
+</form>
 
 
-    
-    
-    
-    
+    <button id="input-button">Give me 5 Words</button>
+
+
+    <div id="loader">
+        <div id="d1"></div>
+        <div id="d2"></div>
+        <div id="d3"></div>
+        <div id="d4"></div>
+        <div id="d5"></div>
+    </div>
+
+    <canvas id="myCanvas" width="1754" height="1240"></canvas>
 
 
 
 
-    
+
+
+
+
+
 
     
-
-<script src="js/shapelibrary.js"></script>     
-<script src="js/respondtoinput.js"></script>    
-<script src="js/respondtolocation.js"></script>
-<script src="js/respondtobattery.js"></script>    
-<script src="js/main.js"></script>
+    <script src="js/shapelibrary.js"></script>
+    <script src="js/respondtoinput.js"></script>
+    <script src="js/respondtolocation.js"></script>
+    <script src="js/respondtobattery.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/button.js"></script> 
 </body>
 
 </html>
