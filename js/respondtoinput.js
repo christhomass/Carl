@@ -54,25 +54,25 @@ function respondToInput() {
             shapeLibrary.drawRect(1);
             break;
         case 2:
-            shapeLibrary.drawRect(2);
+            shapeLibrary.drawRect(11);
             break;
         case 3:
-            shapeLibrary.drawRect(3);
+            shapeLibrary.drawRect(12);
             break;
         case 4:
-            shapeLibrary.drawRect(4);
+            shapeLibrary.drawRect(13);
             break;
         case 5:
-            shapeLibrary.drawRect(5);
+            shapeLibrary.drawRect(14);
             break;
         case 6:
-            shapeLibrary.drawRect(6);
+            shapeLibrary.drawRect(15);
             break;
         case 7:
-            shapeLibrary.drawRect(7);
+            shapeLibrary.drawRect(16);
             break;
         case 8:
-            shapeLibrary.drawRect(8);
+            shapeLibrary.drawRect(17);
             break;
         case 9:
             shapeLibrary.drawRect(9);
@@ -178,7 +178,7 @@ function respondToInput() {
             console.log("Say nada");
             break;
         case 1:
-            shapeLibrary.drawRect(1);
+            shapeLibrary.drawRect(4);
             break;
         case 2:
             shapeLibrary.drawRect(2);
@@ -213,7 +213,7 @@ function respondToInput() {
     }
 
     /* ------------------------------------------------- F -- */
-    var fVal = Math.floor(stats.f / 1);
+    var fVal = Math.floor(stats.f / 5);
 
     switch (fVal) {
         case 0:
@@ -430,7 +430,7 @@ function respondToInput() {
             console.log("Say nada");
             break;
         case 1:
-            shapeLibrary.drawRect(1);
+            shapeLibrary.drawRect(10);
             break;
         case 2:
             shapeLibrary.drawRect(2);
@@ -472,7 +472,7 @@ function respondToInput() {
             console.log("Say nada");
             break;
         case 1:
-            shapeLibrary.drawRect(1);
+            shapeLibrary.drawRect(11);
             break;
         case 2:
             shapeLibrary.drawRect(2);
@@ -514,7 +514,7 @@ function respondToInput() {
             console.log("Say nada");
             break;
         case 1:
-            shapeLibrary.drawRect(1);
+            shapeLibrary.drawRect(12);
             break;
         case 2:
             shapeLibrary.drawRect(2);
@@ -556,7 +556,7 @@ function respondToInput() {
             console.log("Say nada");
             break;
         case 1:
-            shapeLibrary.drawRect(1);
+            shapeLibrary.drawRect(13);
             break;
         case 2:
             shapeLibrary.drawRect(2);
@@ -598,7 +598,7 @@ function respondToInput() {
             console.log("Say nada");
             break;
         case 1:
-            shapeLibrary.drawRect(1);
+            shapeLibrary.drawRect(14);
             break;
         case 2:
             shapeLibrary.drawRect(2);
@@ -640,7 +640,7 @@ function respondToInput() {
             console.log("Say nada");
             break;
         case 1:
-            shapeLibrary.drawRect(1);
+            shapeLibrary.drawRect(15);
             break;
         case 2:
             shapeLibrary.drawRect(2);
@@ -682,7 +682,7 @@ function respondToInput() {
             console.log("Say nada");
             break;
         case 1:
-            shapeLibrary.drawRect(1);
+            shapeLibrary.drawRect(16);
             break;
         case 2:
             shapeLibrary.drawRect(2);
@@ -724,7 +724,7 @@ function respondToInput() {
             console.log("Say nada");
             break;
         case 1:
-            shapeLibrary.drawRect(1);
+            shapeLibrary.drawRect(17);
             break;
         case 2:
             shapeLibrary.drawRect(2);
@@ -766,7 +766,7 @@ function respondToInput() {
             console.log("Say nada");
             break;
         case 1:
-            shapeLibrary.drawRect(1);
+            shapeLibrary.drawRect(18);
             break;
         case 2:
             shapeLibrary.drawRect(2);
@@ -808,7 +808,7 @@ function respondToInput() {
             console.log("Say nada");
             break;
         case 1:
-            shapeLibrary.drawRect(1);
+            shapeLibrary.drawRect(19);
             break;
         case 2:
             shapeLibrary.drawRect(2);
@@ -850,7 +850,7 @@ function respondToInput() {
             console.log("Say nada");
             break;
         case 1:
-            shapeLibrary.drawRect(1);
+            shapeLibrary.drawRect(20);
             break;
         case 2:
             shapeLibrary.drawRect(2);
@@ -892,7 +892,7 @@ function respondToInput() {
             console.log("Say nada");
             break;
         case 1:
-            shapeLibrary.drawRect(1);
+            shapeLibrary.drawRect(21);
             break;
         case 2:
             shapeLibrary.drawRect(2);
@@ -934,7 +934,7 @@ function respondToInput() {
             console.log("Say nada");
             break;
         case 1:
-            shapeLibrary.drawRect(1);
+            shapeLibrary.drawRect(22);
             break;
         case 2:
             shapeLibrary.drawRect(2);
@@ -976,7 +976,7 @@ function respondToInput() {
             console.log("Say nada");
             break;
         case 1:
-            shapeLibrary.drawRect(1);
+            shapeLibrary.drawRect(23);
             break;
         case 2:
             shapeLibrary.drawRect(2);
@@ -1018,7 +1018,7 @@ function respondToInput() {
             console.log("Say nada");
             break;
         case 1:
-            shapeLibrary.drawRect(1);
+            shapeLibrary.drawRect(24);
             break;
         case 2:
             shapeLibrary.drawRect(2);
@@ -1060,7 +1060,7 @@ function respondToInput() {
             console.log("Say nada");
             break;
         case 1:
-            shapeLibrary.drawRect(1);
+            shapeLibrary.drawRect(25);
             break;
         case 2:
             shapeLibrary.drawRect(2);
