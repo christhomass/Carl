@@ -40,6 +40,11 @@ var batLevel = 0;
 
 var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
+ctx.fillStyle = "#FFFFFF";
+ctx.fillRect(0,0,myCanvas.width,myCanvas.height);
+
+
+
 
 
 var shapeLibrary = new ShapeLibrary(ctx, c);
