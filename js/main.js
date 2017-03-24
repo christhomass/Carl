@@ -53,17 +53,29 @@ var shapeLibrary = new ShapeLibrary(ctx, c);
 var inputButton = document.getElementById('input-button');
 inputButton.addEventListener('click', buttonEventHandler);
 
-
-
-
-
-
-
 document.getElementById("myCanvas").style.visibility = "hidden";
 
 document.getElementById("loader").style.visibility = "hidden";
 
+document.getElementById("input-button").style.visibility = "hidden";
 
+
+
+
+
+
+
+
+
+var buttonTrigger = document.getElementById("inputBox").addEventListener("click", bTrigger);
+
+function bTrigger(){
+    
+    document.getElementById("input-button").style.visibility = "visible";
+    
+    
+    
+}
 
 
 function buttonEventHandler() {
